@@ -87,8 +87,12 @@ public class Blocks : MonoBehaviour
     {
         GameObject sparks = Instantiate(blockSparklesVFXS, transform.position, transform.rotation);
         Destroy(sparks,1f);
+
+
+
+        Debug.Log("hiDFodhq97rhd");
     }
 
-
+    
 
 }
